@@ -1,0 +1,12 @@
+static_library("01event"){
+    sources =[
+        "event.c",
+    ]
+    include_dirs =[
+            "//kernel/liteos_m/arch/include",
+            "//kernel/liteos_m/utils",
+            "//device/board/isoftstone/qihang/iot_hardware_hals/include",
+            "//base/iothardware/peripheral/interfaces/inner_api",
+            "//kernel/liteos_m/kernel/include",
+    ]
+}
